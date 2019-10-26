@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 
 @CucumberOptions(
-        features = "src/main/java/Features/BookFlight.feature",
+        features = "src/main/java/Features/BookFlightMaps.feature",
         glue = {"stepDefinitions"},
         tags = {"~@Ignore"},
         plugin = {

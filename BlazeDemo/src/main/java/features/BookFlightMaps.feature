@@ -1,9 +1,9 @@
-Feature: Free CRM Login Feature 
+Feature: BlazeDemo Flight Booking Using Maps 
 
 #With Examples  we have to use Scenario Outline.
 # Without Examples, we have to use Scenario.
 
-Scenario: Free CRM Login Test Scenario
+Scenario: Flight Booking on Blazedemo
 
 	Given User is already on Login Page 
 	When title of login page is Blaze Demo 
@@ -23,9 +23,6 @@ Scenario: Free CRM Login Test Scenario
 	Then User Enters Mandatory Information 
 	    | Name | Address | City | State | ZipCode | NameonCard |
 		| Kunal Malviya  | PJ8 | PJ | Selangor | 46200 | Kunal Malviya |
-		| Kunal Malviya1 | PJ8 | PJ | Selangor | 46201 | Kunal Malviya1 |
-		| Kunal Malviya2 | PJ8 | PJ | Selangor | 46202 | Kunal Malviya2 |
-		| Kunal Malviya3 | PJ8 | PJ | Selangor | 46203 | Kunal Malviya3 |
 	Then User Clicks on Purchase Flight 
 	Then User is on flight successful booked page 
 	Then Close the Browser 
